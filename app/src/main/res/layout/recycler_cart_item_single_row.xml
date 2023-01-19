@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llCartItem"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0.3"
+        android:background="@color/red_variant_1"
+        android:gravity="start"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/tvCartRestaurantName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="4.5"
+        android:gravity="start"
+        android:text="Restaurant Name"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvCartItemPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1.2"
+        android:gravity="start"
+        android:text="Rs 400"
+        android:textColor="@color/red_variant_2"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

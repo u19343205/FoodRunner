@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyProfileFragment"
+    android:background="@color/red_variant_1">
+
+
+    <ImageView
+        android:id="@+id/imgUserImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/user_default_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_below="@+id/imgUserImage"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Full Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_below="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="+91 9999999999 "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvEmailAddress"
+        android:layout_below="@+id/tvPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Email Address "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvDeliveryAddress"
+        android:layout_below="@+id/tvEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Delivery Address"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

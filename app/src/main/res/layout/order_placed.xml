@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgCheckMark"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/checkmark" />
+
+        <TextView
+            android:id="@+id/tvSuccessfull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCheckMark"
+            android:layout_centerHorizontal="true"
+            android:text="@string/order_placed_successfully"
+            android:textColor="#1EDA26"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSuccessfull"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:background="@color/red_variant_1"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+</FrameLayout>
