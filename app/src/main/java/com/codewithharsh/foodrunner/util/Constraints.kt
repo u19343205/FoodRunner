@@ -9,7 +9,7 @@ object Constraints {
     }
 
     fun validateEmailId(email: String): Boolean {
-        return (!email.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches())
+        return (email.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches())
     }
 
     fun validateMobile(mobile: String): Boolean {
